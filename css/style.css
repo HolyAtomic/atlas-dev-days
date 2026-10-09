@@ -5,6 +5,7 @@
     --blue: #0000FF;
     --text: #1a1416;
     --font-primary: "JetBrains Mono", monospace;
+    --font-second: "Bebas Neue", sans-serif;
 }
 
 * {
@@ -227,7 +228,6 @@ header li:last-child a {
 .speakers-page > p {
     margin-bottom: 10px;
     font-size: 11px;
-    font-family: "Archivo Black", sans-serif;
 }
 
 .speakers-page h1 {
@@ -236,6 +236,7 @@ header li:last-child a {
     text-align: center;
     font-size: 13px;
     font-weight: normal;
+    font-family: var(--font-primary);
 }
 
 .speakers-grid {

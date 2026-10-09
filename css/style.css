@@ -64,10 +64,6 @@ header li a {
     font-size: 14px;
 }
 
-header li a:hover {
-    color: var(--blue);
-}
-
 header li:last-child a {
     padding: 10px 18px;
     background: var(--blue);

@@ -116,39 +116,6 @@ header li:last-child a {
     border-radius: 35px;
 }
 
-/* STATS */
-
-.stats {
-    padding: 70px 30px;
-    background: var(--cream);
-    color: var(--text);
-}
-
-.stats h2 {
-    margin-bottom: 25px;
-    text-align: center;
-    font-size: 14px;
-}
-
-.stats-list {
-    max-width: 1000px;
-    margin: auto;
-    display: flex;
-    gap: 20px;
-}
-
-.stats article {
-    flex: 1;
-    padding: 20px;
-    background: var(--white);
-    border-radius: 12px;
-}
-
-.stats article p {
-    margin-top: 8px;
-    font-size: 13px;
-}
-
 /* PROGRAMME */
 
 .program-intro {

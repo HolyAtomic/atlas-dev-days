@@ -298,22 +298,22 @@ footer p {
 }
 /* Inscription */
 main{
-    padding: 40 20;
-    background: var(--black);
+    padding: 40px 20px;
+    background: var(--dark);
     color: var(--white);
 }
 main > h1{
-    margin-bottom: 30;
+    margin-bottom: 30px;
     text-align: center;
-    font-size: 40;
+    font-size: 40px;
     font-family: var(--font-second); 
 }
 form{
-    max-width: 600;
+    max-width: 600px;
     margin: auto;
-    padding: 20;
+    padding: 20px;
     border: none;
-    background: var(--black);
+    background: var(--dark);
 }
 .container{
     display: flex;
@@ -322,4 +322,43 @@ form{
 .container > hr{
     display: none;
 }
-
+.container > label{
+    margin-bottom: 7px;
+    font-size: 10px;
+    color: var(--white);
+}
+.container > input[type="text"],
+.container > input[type="email"],
+.container > input[type="tel"],
+.container >  select,
+.container > textarea{
+    width: 100%;
+    margin-bottom: 22px;
+    padding: 15px 13px;
+    border: 1px var(--white) solid;
+    border-radius: 9px;
+    background: var(--white);
+    color: var(--text);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.container > input{
+    height: 40px;
+}
+.container > select{
+    height: 40px;
+    cursor: pointer;
+}
+.container > textarea{
+    height: 100px;
+    resize: vertical;
+}
+.container > input::placeholder,
+.container > textarea::placeholder{
+    color: var(--text);
+}
+.container > input:focus,
+.container > select:focus,
+.container > textarea:focus{
+    outline: 2px solid var(--white);
+}

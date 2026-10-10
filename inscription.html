@@ -1,12 +1,113 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inscription — Atlas Dev Days</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <div class="morba3"></div>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/icons/logo.png" alt="Logo Atlas Dev Days">
+                </a>
+            </div>
+
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="programe.html">Programme</a></li>
+                <li><a href="intervenants.html">Intervenants</a></li>
+                <li><a href="inscription.html">Inscription</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Inscription</h1>
+
+        <form action="#" method="post">
+
+            <div class="container">
+
+                <hr>
+
+                <label for="name"><b>Nom complet</b></label>
+                <input type="text" id="name" name="name"
+                    placeholder="Votre nom complet" required>
+
+                <label for="email"><b>Email</b></label>
+                <input type="email" id="email" name="email"
+                    placeholder="votre@email.com" required>
+
+                <label for="tele"><b>Téléphone</b></label>
+                <input type="tel" id="tele" name="phone"
+                    placeholder="+212 600 000 000" required>
+
+                <label for="profil"><b>Profil</b></label>
+                <input type="text" id="profil" name="profil"
+                    placeholder="Développeur front-end" required>
+
+                <label for="jour"><b>Journée(s) de participation</b></label>
+                <select id="jour" name="days" required>
+                    <option value="">Choisissez une journée</option>
+                    <option value="jour1">Jour 1</option>
+                    <option value="jour2">Jour 2</option>
+                    <option value="les-deux">Jour 1 et Jour 2</option>
+                </select>
+
+                <label for="atelier"><b>Ateliers souhaités</b></label>
+                <select id="atelier" name="atelier" required>
+                    <option value="">Sélectionnez un atelier</option>
+                    <option value="html-css">HTML et CSS</option>
+                    <option value="javascript">JavaScript</option>
+                    <option value="design">Web Design</option>
+                </select>
+
+                <label>
+                    <input type="checkbox" name="conditions" required>
+                    J'accepte les conditions d'inscription et le traitement de mes données.
+                </label>
+
+                <div class="clearfix">
+                    <button type="reset" class="cancelbtn">Annuler</button>
+                    <button type="submit" class="signupbtn">S'inscrire</button>
+                </div>
+
+            </div>
+
+        </form>
+    </main>
+
+    <footer>
+        <nav aria-label="Navigation secondaire">
+            <ul>
+                <li>
+                    <a href="mailto:contact@atlasdevdays.com">Contact</a>
+                </li>
+
+                <li>
+                    <a href="https://www.linkedin.com/in/oussama-jrhaider-a0b106281/">
+                        Réseaux sociaux
+                    </a>
+                </li>
+
+                <li>
+                    <a href="mentions.html">Mentions légales</a>
+                </li>
+
+                <li>
+                    <a href="inscription.html">S'inscrire</a>
+                </li>
+            </ul>
+        </nav>
+
+        <p>Copyright © 2026 HolyAtomic. All Rights Reserved</p>
+    </footer>
+
 </body>
 </html>
